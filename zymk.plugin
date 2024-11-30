@@ -1,0 +1,13 @@
+#!name=知音漫客
+#!desc=破解會員+付費章節
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1065.png
+
+[Rewrite]
+^https?://api-cdn\.kaimanhua\.com/advertiseapi/app/advertise/getappadvertise - reject
+
+[Script]
+# >知音漫客 解锁会员+付费
+http-response ^https?:\/\/apigate.kaimanhua.com\/zymk.+(paychapters|getuserinfo).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/zymk.js, requires-body=true, timeout=60, tag=zymk
+
+[MITM]
+hostname = apigate.kaimanhua.com, api-cdn.kaimanhua.com
