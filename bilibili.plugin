@@ -1,6 +1,6 @@
-#!name=ntPlayer解鎖pro 
-#!desc=解鎖終身會員，使用方法，進入軟體即可，如果未生效點擊恢復購買
-#!icon=
+#!name=bilbil整合腳本
+#!desc=去廣+1080p
+#!icon=https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Bilibili.png
 
 [Rule]
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
