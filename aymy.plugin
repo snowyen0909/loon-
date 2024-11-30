@@ -1,0 +1,10 @@
+#!name=哎呀漫鴨解鎖會員 
+#!desc=解鎖終身會員，非一次性
+#!icon=https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/amya.jpg
+
+[Script]
+#课程题库
+http-response https://www.aiyamanya.com/aymy/api/getUserInfo script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/aymy.js, requires-body=true, timeout=60, tag=aymy
+
+[MITM]
+hostname = www.aiyamanya.com
