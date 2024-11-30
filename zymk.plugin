@@ -1,6 +1,6 @@
 #!name=知音漫客
 #!desc=破解會員+付費章節
-#!icon=https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/zymk.pngDoraemon-1065.png
+#!icon=https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/zymk.png
 
 [Rewrite]
 ^https?://api-cdn\.kaimanhua\.com/advertiseapi/app/advertise/getappadvertise - reject
