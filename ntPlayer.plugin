@@ -1,0 +1,11 @@
+#!name=ntPlayer解鎖pro 
+#!desc=解鎖終身會員，使用方法，進入軟體即可，如果未生效點擊恢復購買
+#!icon=https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/Ntplayer.PNG
+
+[Script]
+http-response ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/afengye/QX/main/ntPlayer.js, requires-body=true, timeout=60, tag=ntPlayer
+
+http-request ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) script-path=https://raw.githubusercontent.com/afengye/QX/main/ntPlayer.js, timeout=60, tag=ntPlayer
+
+[MITM]
+hostname = api.revenuecat.com
