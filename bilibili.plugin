@@ -1,3 +1,7 @@
+#!name=ntPlayer解鎖pro 
+#!desc=解鎖終身會員，使用方法，進入軟體即可，如果未生效點擊恢復購買
+#!icon=
+
 [Rule]
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?,REJECT
