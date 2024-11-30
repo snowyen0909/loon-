@@ -1,0 +1,13 @@
+#!name=全本小說+淘小說
+#!desc= 破解會員
+#!icon= https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/qbxs%5Ctxs.PNG
+
+[Rewrite]
+^https://thirdwx\.qlogo\.cn/mmopen/.*$ https://zdimg.lifeweek.com.cn/app/20230410/16810960185662892.jpg 302
+
+[Script]
+# > 全本小说&淘小说 解锁vip，
+http-response ^https?:\/\/t(f|y)book.taoyuewenhua.net\/(auth\/account\?adid|auth\/task_account_ios.do\?|wx_register.do\?|auth\/try_wx_bind\?).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/qbxs.js, requires-body=true, timeout=60, tag=qbxs
+
+[MITM]
+hostname = tfbook.taoyuewenhua.net, tybook.taoyuewenhua.net
