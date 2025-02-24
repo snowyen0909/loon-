@@ -1,0 +1,10 @@
+#!name=pixivAds
+#!desc= 去除应用最下方廣告
+#!icon= https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/IMG_1023.png 
+
+[Script]
+# ～ Pixiv去除广告（2022-12-03）@ddgksf2013
+http-response ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) script-path=https://github.com/ddgksf2013/Scripts/raw/master/pixivAds.js, requires-body=true, timeout=60, tag=pixivAds
+
+[MITM]
+hostname = oauth.secure.pixiv.net
