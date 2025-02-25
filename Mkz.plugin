@@ -1,0 +1,13 @@
+#!name= 漫客棧解鎖Vip漫画+小说
+#!author= @GieGie777
+#!desc= Vip漫画+小说。付费节目暂时无解
+#!icon= https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/IMG_1035.png
+
+[Script]
+# > 漫客宅,会员解锁
+http-response ^https?:\/\/(member|comic|base).mkzcdn.com\/(user|chapter\/buy\/add|vote\/add|gift\/play\/add|advert\/app\/(read|user|task)).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mankezhan.js, requires-body=true, timeout=60, tag=mankezhan
+
+http-request ^https?:\/\/(comic|story).mkzcdn.com\/chapter\/(content\/v1|read\/check).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mkztk.js, timeout=60, tag=mkztk
+
+[MITM]
+hostname = member.mkzcdn.com, comic.mkzcdn.com, base.mkzcdn.com
