@@ -1,0 +1,13 @@
+#!name= QQ阅读解锁会员
+#!desc= 解锁会员
+#!author= @GieGie777
+#!icon= https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/QQYD.PNG
+
+[Script]
+# >QQ阅读 解锁会员
+http-response ^https?:\/\/(bookcommon|commontgw)\.reader\.qq\.com.+(nativepage|adV3|bookCity|playlet|List|querymediainfo).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/QQYD.js, requires-body=true, timeout=60, tag=QQYD
+
+http-request ^https?:\/\/(newminerva-tgw|commontgw|bookcommon|unitelogreport|cartoon)\.reader\.qq\.com.*(audio\/auth\?|ChapBatAuthWithPD\?bookId|community\/playlet\/sign).*$ script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/QQYDTK.js, timeout=60, tag=QQYDTK
+
+[MITM]
+hostname = *.reader.qq.com
