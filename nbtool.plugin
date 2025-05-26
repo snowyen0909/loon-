@@ -14,3 +14,4 @@ DOMAIN,static.yximgs.com,REJECT
 DOMAIN-SUFFIX,djvod.ndcimgs.com,REJECT
 DOMAIN-KEYWORD,dsp.8ziben.com,REJECT
 DOMAIN-KEYWORD,lm.adukwai.com,REJECT
+DOMAIN,qh-material.taobao.com,REJECT
