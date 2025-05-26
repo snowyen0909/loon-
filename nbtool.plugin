@@ -6,6 +6,7 @@
 
 [Rule]
 DOMAIN-SUFFIX,b.hon.cc.cdnhwc8.com,REJECT
+DOMAIN,images.pinduoduo.com,REJECT
 DOMAIN,media-sdqd-fy-person.sdoss.ctyunxs.cn,REJECT
 DOMAIN-KEYWORD,ad.adukwai.com,REJECT
 DOMAIN-KEYWORD,a.yximgs.com,REJECT
