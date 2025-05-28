@@ -5,6 +5,7 @@
 #!date = 2025-05-26 18:00:00
 
 [Rule]
+DOMAIN-KEYWORD,eos.huhehaote-8.cmecloud.cn,REJECT
 DOMAIN-SUFFIX,b.hon.cc.cdnhwc8.com,REJECT
 DOMAIN,images.pinduoduo.com,REJECT
 DOMAIN,media-sdqd-fy-person.sdoss.ctyunxs.cn,REJECT
