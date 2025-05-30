@@ -16,3 +16,5 @@ DOMAIN-SUFFIX,djvod.ndcimgs.com,REJECT
 DOMAIN-KEYWORD,dsp.8ziben.com,REJECT
 DOMAIN-KEYWORD,lm.adukwai.com,REJECT
 DOMAIN,qh-material.taobao.com,REJECT
+DOMAIN,sdklog.zhangyuyidong.cn,REJECT
+DOMAIN,sdk.zhangyuyidong.cn,REJECT
