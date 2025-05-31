@@ -1,8 +1,8 @@
 #!name=nb助手去广告
-#!desc=去广告
+#!desc=去广告，跳广告
 #!tag=去广告
 #!icon= https://raw.githubusercontent.com/snowyen0909/loon-/refs/heads/main/IMG_1782.png
-#!date = 2025-05-26 18:00:00
+#!date = 2025-05-31 18:00:00
 
 [Rule]
 DOMAIN-KEYWORD,eos.huhehaote-8.cmecloud.cn,REJECT
