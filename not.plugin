@@ -1,0 +1,9 @@
+#!name=Notability解鎖終身plus
+#!desc= 解鎖終身plus，一次性解鎖，若無效點擊恢復購買
+#!icon= https://raw.githubusercontent.com/snowyen0909/loon-2/refs/heads/main/Notability.png
+
+[Script]
+http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://raw.githubusercontent.com/snowyen0909/loon-2/refs/heads/main/not.js, requires-body=true, timeout=60, tag=notability
+
+[MITM]
+hostname = notability.com
